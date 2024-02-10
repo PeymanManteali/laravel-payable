@@ -1,8 +1,8 @@
 <?php
 
-namespace Packages\Payment\Models;
+namespace Services\Payment\Models;
 
-use Packages\Subscription\Models\Subscription;
+use Services\Subscription\Models\Subscription;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
