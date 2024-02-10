@@ -1,6 +1,6 @@
 <?php
 
-namespace Packages\Payment;
+namespace Services\Payment;
 
 
 class Payment
