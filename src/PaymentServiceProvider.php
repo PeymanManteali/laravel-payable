@@ -1,8 +1,8 @@
 <?php
 
-namespace Packages\Payment;
+namespace Services\Payment;
 
-use App\Services\Payment\GatewayProviders\CafebazaarProvider\CafebazaarConsole;
+use Services\Payment\GatewayProviders\CafebazaarProvider\CafebazaarConsole;
 use Illuminate\Support\ServiceProvider;
 
 class PaymentServiceProvider extends ServiceProvider
