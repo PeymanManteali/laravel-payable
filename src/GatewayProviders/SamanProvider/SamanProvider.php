@@ -1,9 +1,9 @@
 <?php
 
-namespace Packages\Payment\GatewayProviders\SamanProvider;
+namespace Services\Payment\GatewayProviders\SamanProvider;
 
-use Packages\Payment\Contracts\GatewayAbstraction;
-use Packages\Payment\Contracts\GatewayInterface;
+use Services\Payment\Contracts\GatewayAbstraction;
+use Services\Payment\Contracts\GatewayInterface;
 
 class SamanProvider extends GatewayAbstraction implements GatewayInterface
 {
