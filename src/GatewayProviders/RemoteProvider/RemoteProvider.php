@@ -1,9 +1,9 @@
 <?php
 
-namespace Packages\Payment\GatewayProviders\RemoteProvider;
+namespace Services\Payment\GatewayProviders\RemoteProvider;
 
-use Packages\Payment\Contracts\GatewayAbstraction;
-use Packages\Payment\Contracts\GatewayInterface;
+use Services\Payment\Contracts\GatewayAbstraction;
+use Services\Payment\Contracts\GatewayInterface;
 
 class RemoteProvider extends GatewayAbstraction implements GatewayInterface
 {
