@@ -1,6 +1,6 @@
 <?php
 
-use Packages\Payment\GatewayProviders\CafebazaarProvider\Cafebazaar;
+use Services\Payment\GatewayProviders\CafebazaarProvider\Cafebazaar;
 use Illuminate\Support\Facades\Route;
 
 /*
