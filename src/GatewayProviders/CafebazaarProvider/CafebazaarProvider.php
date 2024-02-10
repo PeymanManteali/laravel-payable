@@ -1,9 +1,9 @@
 <?php
 
-namespace Packages\Payment\GatewayProviders\CafebazaarProvider;
+namespace Services\Payment\GatewayProviders\CafebazaarProvider;
 
-use Packages\Payment\Contracts\GatewayAbstraction;
-use Packages\Payment\Contracts\GatewayInterface;
+use Services\Payment\Contracts\GatewayAbstraction;
+use Services\Payment\Contracts\GatewayInterface;
 
 class CafebazaarProvider extends GatewayAbstraction implements GatewayInterface
 {
