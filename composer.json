@@ -12,7 +12,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Packages\\Payment\\PaymentServiceProvider"
+                "Packages\\Payment\\src\\PaymentServiceProvider"
             ]
         }
     },
