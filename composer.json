@@ -2,7 +2,7 @@
 
     "name": "payment/service",
     "description": "laravel payment service",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "type": "metapackage",
     "autoload": {
         "psr-4": {
