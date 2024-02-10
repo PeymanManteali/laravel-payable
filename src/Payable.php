@@ -1,9 +1,9 @@
 <?php
 
-namespace Packages\Payment;
+namespace Services\Payment;
 
-use Packages\Payment\Models\Transaction;
-use Packages\Subscription\Models\Subscription;
+use Services\Payment\Models\Transaction;
+use Services\Subscription\Models\Subscription;
 use Carbon\Carbon;
 use Exception;
 use Illuminate\Database\Eloquent\Relations\HasOne;
