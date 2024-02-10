@@ -1,5 +1,5 @@
 <?php
-namespace Packages\Payment\GatewayProviders\CafebazaarProvider;
+namespace Services\Payment\GatewayProviders\CafebazaarProvider;
 
 class CafebazaarPurchase {
 
