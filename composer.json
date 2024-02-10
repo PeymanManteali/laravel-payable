@@ -6,7 +6,7 @@
     "type": "metapackage",
     "autoload": {
         "psr-4": {
-            "Packages\\Payment\\": "src/"
+            "Packages\\Payment\\": "/src"
         }
     },
     "extra": {
