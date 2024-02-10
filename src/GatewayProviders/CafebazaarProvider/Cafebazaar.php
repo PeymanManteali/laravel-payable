@@ -1,6 +1,6 @@
 <?php
 
-namespace Packages\Payment\GatewayProviders\CafebazaarProvider;
+namespace Services\Payment\GatewayProviders\CafebazaarProvider;
 
 use Exception;
 use GuzzleHttp\Exception\RequestException;
