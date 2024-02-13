@@ -1,6 +1,6 @@
 <?php
 
-namespace \PaymentService;
+namespace PaymentService;
 
 use PaymentService\GatewayProviders\CafebazaarProvider\CafebazaarConsole;
 use Illuminate\Support\ServiceProvider;
