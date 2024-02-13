@@ -1,6 +1,6 @@
 {
 
-    "name": "laravel/payable",
+    "name": "peymanmanteali/laravel-payable",
     "description": "laravel payment service",
     "type": "metapackage",
     "autoload": {
