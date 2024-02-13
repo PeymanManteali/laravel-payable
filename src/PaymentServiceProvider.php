@@ -1,6 +1,6 @@
 <?php
 
-namespace PaymentService;
+namespace /PaymentService;
 
 use PaymentService\GatewayProviders\CafebazaarProvider\CafebazaarConsole;
 use Illuminate\Support\ServiceProvider;
@@ -20,6 +20,8 @@ class PaymentServiceProvider extends ServiceProvider
 
         $this->loadRoutesFrom(__DIR__ . '/routes/routes.php');
         $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
+        $this->publishes([realpath(__DIR__.'/database/migrations') => database_path('migrations')
+		], 'migrations');
 
         // Registering package commands.
         $this->commands([CafebazaarConsole::class]);
