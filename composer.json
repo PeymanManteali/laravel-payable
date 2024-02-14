@@ -5,7 +5,7 @@
     "type": "metapackage",
     "autoload": {
         "psr-4": {
-            "PaymentService\\": "src/"
+            "PaymentService\\": "PaymentService/src/"
         }
     },
     "extra": {
